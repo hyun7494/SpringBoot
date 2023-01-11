@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import kr.co.ch07.service.User4Service;
-import kr.co.ch07.vo.User1VO;
 import kr.co.ch07.vo.User4VO;
 
 @Controller
