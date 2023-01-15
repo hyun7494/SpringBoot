@@ -73,5 +73,12 @@
   </dependencies>
   <build>
     <finalName>Ch05</finalName>
+    <plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-war-plugin</artifactId>
+			<version>3.2.2</version>
+		</plugin>
+	</plugins>
   </build>
 </project>

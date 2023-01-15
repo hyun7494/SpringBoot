@@ -9,7 +9,7 @@ import kr.co.ch08.vo.User1VO;
 @Service
 public class User1Service {
 	
-	@Autowired
+	
 	private User1Repo repo;
 	
 

@@ -15,7 +15,7 @@ import kr.co.ch08.vo.User2VO;
 @Service
 public class User2Service implements UserDetailsService {
 	
-	@Autowired
+	
 	private User2Repo repo;
 
 	public void insertUser2(User2VO vo) {
