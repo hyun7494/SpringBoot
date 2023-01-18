@@ -10,6 +10,7 @@ import kr.co.sboard.vo.UserVO;
 @Repository
 public interface UserDAO {
 	
+	// insert쓴 이유 메서드를 실행했을 때 DB에서 영향을 받아서 값이 바뀌는 행의 갯수만큼
 	public int insertUser(UserVO vo);
 	public TermsVO selectTerms();
 	public void selectUser();
