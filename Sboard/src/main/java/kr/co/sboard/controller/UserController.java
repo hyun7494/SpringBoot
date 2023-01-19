@@ -27,13 +27,6 @@ public final class UserController {
 		return "/user/login";
 	}
 	
-	@PostMapping("/user/login")
-	public String login(UserVO vo) {
-		int result = service.selectUser();
-		
-		return "/user/login";
-	}
-	
 	@GetMapping("/user/register")
 	public String register() {
 		return "/user/register";
