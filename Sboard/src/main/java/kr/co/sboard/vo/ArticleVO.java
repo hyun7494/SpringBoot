@@ -1,5 +1,7 @@
 package kr.co.sboard.vo;
 
+import javax.persistence.Table;
+
 import org.springframework.web.multipart.MultipartFile;
 
 import lombok.AllArgsConstructor;
@@ -15,6 +17,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 @Builder
+@Table(name="board_article")
 public class ArticleVO {
 	private int no;
 	private int parent;

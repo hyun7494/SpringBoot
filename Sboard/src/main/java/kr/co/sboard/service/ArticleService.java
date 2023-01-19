@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import kr.co.sboard.dao.ArticleDAO;
-import kr.co.sboard.repository.ArticleRepo;
 import kr.co.sboard.vo.ArticleVO;
 import kr.co.sboard.vo.FileVO;
 
@@ -21,8 +20,6 @@ public class ArticleService {
 	@Autowired
 	private ArticleDAO dao;
 	
-	@Autowired
-	private ArticleRepo repo;
 	
 	public int insertArticle(ArticleVO vo) {
 		
@@ -57,7 +54,6 @@ public class ArticleService {
 	}
 	public List<ArticleVO> selectArticles() {
 		
-		List<ArticleVO> articles = repo.findAll();
 		return dao.selectArticles();
 	}
 	public int updateArticle(ArticleVO vo) {

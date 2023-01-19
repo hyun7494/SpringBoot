@@ -28,12 +28,12 @@
                     <th>조회</th>
                 </tr>
                 <tr>
-	                <tr th:each="list:${lists}">
-	                <td th:text=${list.no}>번호</td>
-	                <td th:text=${list.title}><a th:href="@{/view(no=${list.no})}">제목</a></td>
-	                <td th:text=${list.uid}>글쓴이</td>
-	                <td th:text=${list.rdate}>날짜</td>
-	                <td th:text=${list.hit}>조회</td>
+	                <tr th:each="article:${articles}">
+	                <td th:text=${article.no}>번호</td>
+	                <td><a th:href="@{/view(no = ${article.no})}" th:text="${article.title}"></a></td>
+	                <td th:text=${article.uid}>글쓴이</td>
+	                <td th:text=${article.rdate}>날짜</td>
+	                <td th:text=${article.hit}>조회</td>
                 </tr>              
                 
             </table>
