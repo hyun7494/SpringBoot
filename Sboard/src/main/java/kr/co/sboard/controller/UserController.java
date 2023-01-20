@@ -22,18 +22,18 @@ public final class UserController {
 	@Autowired
 	private UserService service;
 	
-	@GetMapping("/user/login")
+	@GetMapping("user/login")
 	public String login() {
-		return "/user/login";
+		return "user/login";
 	}
 	
-	@GetMapping("/user/register")
+	@GetMapping("user/register")
 	public String register() {
-		return "/user/register";
+		return "user/register";
 	}
 	
 	// ip정보를 받기 위해 vo, 뒤에 붙인거임
-	@PostMapping("/user/register")
+	@PostMapping("user/register")
 	public String register(UserVO vo, HttpServletRequest req) {
 		String regip = req.getRemoteAddr();
 		vo.setRegip(regip);
@@ -43,18 +43,18 @@ public final class UserController {
 		return "redirect:/user/login?success="+result;
 	}
 	
-	@GetMapping("/user/terms")
+	@GetMapping("user/terms")
 	public String terms(Model model) {
 		TermsVO vo = service.selectTerms();
 		model.addAttribute(vo);
-		return "/user/terms";
+		return "user/terms";
 	}
 	
 	// ajax로 uid 전송 받았으니 String uid
 	// jpa로 처리 할거임
 	// json으로 받아오니 responseBody
 	@ResponseBody
-	@GetMapping("/user/checkUid")
+	@GetMapping("user/checkUid")
 	public Map<String, Integer> checkUid(String uid) {
 		
 		int result = service.countUser(uid);
@@ -66,7 +66,7 @@ public final class UserController {
 	
 	// 별명 중복 확인
 	@ResponseBody
-	@GetMapping("/user/checkNick")
+	@GetMapping("user/checkNick")
 	public Map<String, Integer> checkNick(String nick){
 
 		int result = service.countNick(nick);
@@ -77,7 +77,7 @@ public final class UserController {
 	
 	// hp 중복 확인
 	@ResponseBody
-	@GetMapping("/user/checkHp")
+	@GetMapping("user/checkHp")
 	public Map<String, Integer> checkHp(String hp){
 		int result = service.countHp(hp);
 		Map<String, Integer> map = new HashMap<>();
