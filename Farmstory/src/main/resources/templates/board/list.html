@@ -11,20 +11,20 @@
                     <th>날짜</th>
                     <th>조회</th>
                 </tr>
-                <!--/*
+
                 <tr>
 	                <tr th:each="article:${articles}">
 	                <td th:text=${article.no}>번호</td>
                     <td><a th:href="@{/view(no = ${article.no})}">[[${article.title}]] &#91;[[${article.comment}]]&#93;</a></td>
-	                <td th:text=${article.nick}>글쓴이</td>
+	                <td th:text=${article.uid}>글쓴이</td>
 	                <td th:text=${article.rdate}>날짜</td>
 	                <td th:text=${article.hit}>조회</td>
                 </tr>              
-                */-->
-            </table>
 
+            </table>
+<!--
             <div class="page">
-                <!--/*
+
                 <th:block th:if="${groups[0]>1}">
                 	<a th:href="@{/list(pg=${groups[0]-1})}" class="prev">이전</a>
                 </th:block>
@@ -39,9 +39,9 @@
                 <th:block th:if="${groups[1]<lastPageNum}">
                 	<a th:href="@{/list(pg=${groups[1]+1})}" class="next">다음</a>
                 </th:block>
-                */-->
-            </div>
 
+            </div>
+-->
             <a th:href="@{/board/write(group=${group},cate=${cate})}" class="btnWrite">글쓰기</a>
 
         </main>

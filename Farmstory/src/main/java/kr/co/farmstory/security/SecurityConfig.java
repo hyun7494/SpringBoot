@@ -32,11 +32,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		// 사이트 위조 방지 설정
 		http.csrf().disable();
 		
-		/*
+
 		// 로그인 설정
 		http.formLogin()
 		.loginPage("/user/login")
-		.defaultSuccessUrl("/list")
+		.defaultSuccessUrl("/index")
 		.failureUrl("/user/login?success=100")
 		.usernameParameter("uid")
 		.passwordParameter("pass");
@@ -45,8 +45,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http.logout()
 		.invalidateHttpSession(true)
 		.logoutRequestMatcher(new AntPathRequestMatcher("/user/logout"))
-		.logoutSuccessUrl("/user/login?success=200");
-		*/
+		.logoutSuccessUrl("/");
+
 	}
 	
 	@Autowired
