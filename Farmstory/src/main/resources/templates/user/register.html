@@ -1,10 +1,78 @@
 <th:block th:include="@{_header.html}"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script src="http://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-<!--<script src="/js/postcode.js"></script>-->
+<script src="/Farmstory/js/postcode.js"></script>
+
 <script>
     $(function(){
-    );
+        $('#btnUidCheck').click(function(){
+
+            let uid = $('input[name=uid]').val();
+
+            $.ajax({
+                url:'/Farmstory/user/checkUid',
+                method:'get',
+                data: {"uid": uid},
+                dataType: 'json',
+                success:function(data){
+                    // data.result가 1이면 안되게 if else 하자
+                    if(data.result != 0){
+                        $('.uidResult').css('color', 'red').text('이미 사용중인 아이디 입니다.');
+                    }else{
+                        $('.uidResult').css('color', 'green').text('사용가능한 아이디입니다..');
+                    }
+                }
+            });
+        });
+
+        $('input[name=pass2]').focusout(function(){
+    			let pass1 = $('input[name=pass1]').val();
+    			let pass2 = $('input[name=pass2]').val();
+
+    			if(pass1 != pass2){
+    				$('.passResult').css('color', 'red').text('비밀번호가 일치하지 않습니다.');
+    			}else{
+    				$('.passResult').css('color', 'green').text('비밀번호가 일치합니다.');
+    			}
+        });
+
+        $('#btnNickCheck').click(function(){
+    			let nick = $('input[name=nick]').val();
+
+    			$.ajax({
+    				url:'/Farmstory/user/checkNick',
+    				method:'get',
+    				data:{"nick":nick},
+    				dataType:'json',
+    				success:function(data){
+    					if(data.result != 0){
+    						$('.nickResult').css('color', 'red').text('이미 사용중인 별명입니다.');
+    					}else{
+    						$('.nickResult').css('color', 'green').text('사용가능한 별명입니다.');
+    					}
+    				}
+    			})
+        });
+
+        $('input[name=hp]').focusout(function(){
+    			let hp = $('input[name=hp]').val();
+
+    			$.ajax({
+    				url:'/Farmstory/user/checkHp',
+    				method:'get',
+    				data:{"hp":hp},
+    				dataType:'json',
+    				success:function(data){
+    					if(data.result != 0){
+    						$('.hpResult').css('color', 'red').text('이미 사용중인 전화번호입니다.');
+    					}else{
+    						$('.hpResult').css('color', 'green').text('사용가능한 전화번호입니다.');
+    					}
+    				}
+    			});
+        });
+
+    });
 </script>
         <main id="user" class="register">
 

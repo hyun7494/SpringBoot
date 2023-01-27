@@ -3,10 +3,66 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="kr.co.farmstory.dao.ArticleDAO">
-    <insert id="insertArticle">
-        INSERT INTO `board_article` set `title`=#{title}, `content`=#{content}, `file`=#{file}, `uid`=#{uid}, `regip`=#{regip}, `rdate`=#{rdate};
+    <insert id="insertArticle" useGeneratedKeys="true" keyProperty="no">
+        insert into `board_article` set
+        `title`=#{title},
+        `cate`=#{cate},
+        `content`=#{content},
+        <if test="fname.isEmpty() == true">
+            `file`=0,
+        </if>
+        <if test="fname.isEmpty() == false">
+            `file`=1,
+        </if>
+        `uid`=#{uid},
+        `regip`=#{regip},
+        `rdate`= NOW();
     </insert>
-    <select id="selectArticle"></select>
+    <insert id="insertFile">
+        insert into `board_file` set
+        `fno`=#{fno},
+        `parent`=#{parent},
+        `newName`=#{newName},
+        `oriName`=#{oriName},
+        `rdate`=NOW();
+    </insert>
+    <!-- 수동으로 바인딩 해야함 -->
+    <resultMap id="selectArticleResultMap" type="kr.co.farmstory.vo.ArticleVO">
+        <id column="no" property="no"/>
+        <result column="parent" property="parent"/>
+        <result column="coment" property="coment"/>
+        <!-- 필요없어서 제외함
+        <result column="cate" property="cate"/>
+        -->
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="file" property="file"/>
+        <!-- 필요없어서 제외함
+        <result column="hit" property="hit"/>
+         -->
+        <result column="uid" property="uid"/>
+        <result column="regip" property="regip"/>
+        <result column="rdate" property="rdate"/>
+
+        <association property="fileVO" javaType="kr.co.farmstory.vo.FileVO">
+            <id column="fno" property="fno"/>
+            <result column="parent" property="parent"/>
+            <result column="newName" property="newName"/>
+            <result column="oriName" property="oriName"/>
+            <result column="download" property="download"/>
+            <!-- 필요없으면 제외해도 상관 없음
+            <result column="rdate" property="rdate"/>
+             -->
+        </association>
+    </resultMap>
+
+    <!-- 파일까지 들고와야해서 file테이블이랑 조인해야함  그런데 파일이 없을수도 있어서 외부조인으로 해야함 -->
+    <select id="selectArticle" resultMap="selectArticleResultMap">
+        select * from `board_article` as a
+        left join `board_file` as b
+        on a.no = b.parent
+        where `no`= #{no};
+    </select>
     <select id="selectArticles" resultType="kr.co.farmstory.vo.ArticleVO" parameterType="map">
         select a.*, b.nick from `board_article` as a
         join `board_user` as b

@@ -1,10 +1,21 @@
 <th:block th:include="@{_header.html}"/>
+<script>
+    $(function(){
+        $('.next').click(function(){
+
+            if($('.terms').is(':checked') != true || $('.privacy').is(':checked') != true ){
+                alert('동의하셔야 회원가입을 하실 수 있습니다.');
+                return false;
+            }
+        });
+    });
+</script>
         <main id="user" class="terms">
             <table border="0">
                 <caption>사이트 이용약관</caption>
                 <tr>
                     <td>
-                        <textarea class="terms" readonly>내용</textarea>
+                        <textarea class="terms" readonly>[[${vo.terms}]]</textarea>
                         <label><input type="checkbox" class="terms">&nbsp;동의합니다.</label>
                     </td>
                 </tr>
@@ -14,7 +25,7 @@
                 <caption>개인정보 취급방침</caption>
                 <tr>
                     <td>
-                        <textarea class="privacy" readonly>내용</textarea>
+                        <textarea class="privacy" readonly>[[${vo.privacy}]]</textarea>
                         <label><input type="checkbox" class="privacy">&nbsp;동의합니다.</label>
                     </td>
                 </tr>
