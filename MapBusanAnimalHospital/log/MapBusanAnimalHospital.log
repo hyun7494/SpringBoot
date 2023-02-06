@@ -1,0 +1,270 @@
+2023-02-06 11:15:26.256  INFO 6456 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 6456 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:15:26.256  INFO 6456 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:15:26.337  INFO 6456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:15:26.338  INFO 6456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:15:26.338  INFO 6456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:15:26.346  INFO 6456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/index]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:15:26.346  INFO 6456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 88 ms
+2023-02-06 11:15:26.365  INFO 6456 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:15:26.375  INFO 6456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:15:26.381  INFO 6456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/index'
+2023-02-06 11:15:26.383  INFO 6456 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.14 seconds (JVM running for 2966.691)
+2023-02-06 11:15:26.383  INFO 6456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:15:37.006  INFO 6456 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 11:15:37.013  INFO 6456 --- [Thread-63] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:15:37.057  INFO 6456 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 6456 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:15:37.058  INFO 6456 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:15:37.137  INFO 6456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:15:37.137  INFO 6456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:15:37.137  INFO 6456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:15:37.144  INFO 6456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:15:37.145  INFO 6456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 86 ms
+2023-02-06 11:15:37.163  INFO 6456 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:15:37.175  INFO 6456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:15:37.180  INFO 6456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-06 11:15:37.182  INFO 6456 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.137 seconds (JVM running for 2977.489)
+2023-02-06 11:15:37.183  INFO 6456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:15:42.092  INFO 6456 --- [RMI TCP Connection(54)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-06 11:15:42.122  INFO 6456 --- [RMI TCP Connection(54)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:15:46.187  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 4552 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:15:46.188  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:15:46.217  INFO 4552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-06 11:15:46.217  INFO 4552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-06 11:15:46.770  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:15:46.778  INFO 4552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:15:46.778  INFO 4552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:15:46.818  INFO 4552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:15:46.819  INFO 4552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 601 ms
+2023-02-06 11:15:46.951  INFO 4552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:15:47.047  INFO 4552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:15:47.069  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-06 11:15:47.077  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 1.125 seconds (JVM running for 1.558)
+2023-02-06 11:15:52.230  INFO 4552 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:15:52.230  INFO 4552 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:15:52.231  INFO 4552 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-06 11:17:52.935  INFO 4552 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 11:17:52.942  INFO 4552 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:17:52.942  INFO 4552 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 11:17:52.996  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 4552 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:17:52.996  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:17:53.116  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:17:53.117  INFO 4552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:17:53.117  INFO 4552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:17:53.127  INFO 4552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/index]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:17:53.128  INFO 4552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 130 ms
+2023-02-06 11:17:53.157  INFO 4552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:17:53.180  INFO 4552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:17:53.186  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/index'
+2023-02-06 11:17:53.189  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.215 seconds (JVM running for 127.671)
+2023-02-06 11:17:53.191  INFO 4552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:17:59.445  INFO 4552 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/index]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:17:59.446  INFO 4552 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:17:59.446  INFO 4552 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-06 11:19:16.875  INFO 4552 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2023-02-06 11:19:16.890  INFO 4552 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:19:16.891  INFO 4552 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/index]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 11:19:16.932  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 4552 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:19:16.932  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:19:17.030  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:19:17.030  INFO 4552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:19:17.030  INFO 4552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:19:17.039  INFO 4552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/index]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:19:17.039  INFO 4552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 106 ms
+2023-02-06 11:19:17.060  INFO 4552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:19:17.075  INFO 4552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:19:17.080  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/index'
+2023-02-06 11:19:17.082  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.165 seconds (JVM running for 211.564)
+2023-02-06 11:19:17.083  INFO 4552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:19:48.762  INFO 4552 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2023-02-06 11:19:48.766  INFO 4552 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:19:48.811  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 4552 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:19:48.812  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:19:48.932  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:19:48.933  INFO 4552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:19:48.933  INFO 4552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:19:48.946  INFO 4552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/index]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:19:48.946  INFO 4552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 133 ms
+2023-02-06 11:19:48.978  INFO 4552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:19:49.003  INFO 4552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:19:49.010  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/index'
+2023-02-06 11:19:49.013  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.218 seconds (JVM running for 243.495)
+2023-02-06 11:19:49.013  INFO 4552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:22:11.319  INFO 4552 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 11:22:11.324  INFO 4552 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:22:11.381  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 4552 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:22:11.381  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:22:11.480  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:22:11.480  INFO 4552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:22:11.480  INFO 4552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:22:11.489  INFO 4552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:22:11.489  INFO 4552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 106 ms
+2023-02-06 11:22:11.509  INFO 4552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:22:11.520  INFO 4552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:22:11.525  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-06 11:22:11.527  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.165 seconds (JVM running for 386.009)
+2023-02-06 11:22:11.528  INFO 4552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:22:17.247  INFO 4552 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:22:17.247  INFO 4552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:22:17.248  INFO 4552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-06 11:24:26.677  INFO 4552 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 11:24:26.702  INFO 4552 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:24:26.702  INFO 4552 --- [Thread-19] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 11:24:26.743  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 4552 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:24:26.744  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:24:26.827  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:24:26.828  INFO 4552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:24:26.828  INFO 4552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:24:26.836  INFO 4552 --- [restartedMain] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:24:26.836  INFO 4552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 91 ms
+2023-02-06 11:24:26.852  INFO 4552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:24:26.864  INFO 4552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:24:26.868  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/MapBusanAnimalHospital'
+2023-02-06 11:24:26.871  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.141 seconds (JVM running for 521.352)
+2023-02-06 11:24:26.872  INFO 4552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:24:31.541  INFO 4552 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:24:31.541  INFO 4552 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:24:31.542  INFO 4552 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-06 11:28:25.940  INFO 4552 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 11:28:25.944  INFO 4552 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:28:25.944  INFO 4552 --- [Thread-23] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 11:28:25.987  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 4552 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:28:25.987  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:28:26.078  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:28:26.079  INFO 4552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:28:26.079  INFO 4552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:28:26.087  INFO 4552 --- [restartedMain] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:28:26.087  INFO 4552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 99 ms
+2023-02-06 11:28:26.103  INFO 4552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:28:26.116  INFO 4552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:28:26.121  INFO 4552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/MapBusanAnimalHospital'
+2023-02-06 11:28:26.123  INFO 4552 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.151 seconds (JVM running for 760.605)
+2023-02-06 11:28:26.124  INFO 4552 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:28:30.564  INFO 4552 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:28:30.565  INFO 4552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:28:30.565  INFO 4552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-06 11:41:59.892  INFO 4552 --- [RMI TCP Connection(29)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-06 11:41:59.918  INFO 4552 --- [RMI TCP Connection(29)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:41:59.918  INFO 4552 --- [RMI TCP Connection(29)-127.0.0.1] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 11:42:05.141  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 7680 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:42:05.142  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:42:05.176  INFO 7680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-06 11:42:05.176  INFO 7680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-06 11:42:05.724  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:42:05.731  INFO 7680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:42:05.731  INFO 7680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:42:05.770  INFO 7680 --- [restartedMain] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:42:05.770  INFO 7680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 594 ms
+2023-02-06 11:42:05.904  INFO 7680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:42:05.999  INFO 7680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:42:06.022  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/MapBusanAnimalHospital'
+2023-02-06 11:42:06.028  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 1.127 seconds (JVM running for 1.562)
+2023-02-06 11:42:09.606  INFO 7680 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:42:09.606  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:42:09.607  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-06 11:49:34.901  INFO 7680 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 11:49:34.907  INFO 7680 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:49:34.908  INFO 7680 --- [Thread-5] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 11:49:34.966  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 7680 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:49:34.966  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:49:35.088  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:49:35.089  INFO 7680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:49:35.089  INFO 7680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:49:35.098  INFO 7680 --- [restartedMain] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:49:35.098  INFO 7680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 130 ms
+2023-02-06 11:49:35.130  INFO 7680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:49:35.151  INFO 7680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:49:35.157  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/MapBusanAnimalHospital'
+2023-02-06 11:49:35.161  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.217 seconds (JVM running for 450.693)
+2023-02-06 11:49:35.162  INFO 7680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:49:36.847  INFO 7680 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:49:36.848  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:49:36.849  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-06 11:50:14.723  INFO 7680 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 11:50:14.749  INFO 7680 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:50:14.749  INFO 7680 --- [Thread-7] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 11:50:14.799  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 7680 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:50:14.799  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:50:14.888  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:50:14.888  INFO 7680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:50:14.888  INFO 7680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:50:14.896  INFO 7680 --- [restartedMain] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:50:14.896  INFO 7680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 96 ms
+2023-02-06 11:50:14.918  INFO 7680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:50:14.932  INFO 7680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:50:14.937  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/MapBusanAnimalHospital'
+2023-02-06 11:50:14.939  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.157 seconds (JVM running for 490.472)
+2023-02-06 11:50:14.940  INFO 7680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:50:17.664  INFO 7680 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:50:17.665  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:50:17.665  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-06 11:54:22.051  INFO 7680 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-02-06 11:54:22.055  INFO 7680 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:54:22.055  INFO 7680 --- [Thread-11] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 11:54:22.100  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 7680 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:54:22.100  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:54:22.191  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:54:22.191  INFO 7680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:54:22.191  INFO 7680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:54:22.199  INFO 7680 --- [restartedMain] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:54:22.199  INFO 7680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 98 ms
+2023-02-06 11:54:22.219  INFO 7680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:54:22.234  INFO 7680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:54:22.239  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/MapBusanAnimalHospital'
+2023-02-06 11:54:22.242  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.158 seconds (JVM running for 737.775)
+2023-02-06 11:54:22.243  INFO 7680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:54:25.715  INFO 7680 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2023-02-06 11:54:25.740  INFO 7680 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:54:25.780  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 7680 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:54:25.781  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:54:25.867  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:54:25.867  INFO 7680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:54:25.867  INFO 7680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:54:25.875  INFO 7680 --- [restartedMain] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:54:25.875  INFO 7680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 93 ms
+2023-02-06 11:54:25.895  INFO 7680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:54:25.908  INFO 7680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:54:25.913  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/MapBusanAnimalHospital'
+2023-02-06 11:54:25.915  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.149 seconds (JVM running for 741.448)
+2023-02-06 11:54:25.916  INFO 7680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:55:55.063  INFO 7680 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:55:55.063  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:55:55.063  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-06 11:56:56.673  INFO 7680 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 11:56:56.677  INFO 7680 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:56:56.678  INFO 7680 --- [Thread-19] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 11:56:56.719  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 7680 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:56:56.719  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:56:56.804  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:56:56.805  INFO 7680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:56:56.805  INFO 7680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:56:56.813  INFO 7680 --- [restartedMain] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:56:56.813  INFO 7680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 93 ms
+2023-02-06 11:56:56.831  INFO 7680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:56:56.844  INFO 7680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:56:56.848  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/MapBusanAnimalHospital'
+2023-02-06 11:56:56.850  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.146 seconds (JVM running for 892.383)
+2023-02-06 11:56:56.851  INFO 7680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:56:58.912  INFO 7680 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:56:58.913  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:56:58.913  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-02-06 11:59:15.090  INFO 7680 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 11:59:15.114  INFO 7680 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 11:59:15.114  INFO 7680 --- [Thread-23] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 11:59:15.156  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Starting MapBusanAnimalHospitalApplication using Java 17.0.5 on DESKTOP-1FFOQKL with PID 7680 (C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital\bin\main started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\MapBusanAnimalHospital)
+2023-02-06 11:59:15.157  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:59:15.242  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:59:15.242  INFO 7680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:59:15.242  INFO 7680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 11:59:15.250  INFO 7680 --- [restartedMain] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:59:15.250  INFO 7680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 92 ms
+2023-02-06 11:59:15.267  INFO 7680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-06 11:59:15.279  INFO 7680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:59:15.284  INFO 7680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/MapBusanAnimalHospital'
+2023-02-06 11:59:15.286  INFO 7680 --- [restartedMain] .b.a.h.MapBusanAnimalHospitalApplication : Started MapBusanAnimalHospitalApplication in 0.144 seconds (JVM running for 1030.819)
+2023-02-06 11:59:15.286  INFO 7680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 11:59:18.996  INFO 7680 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 11:59:18.996  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 11:59:18.997  INFO 7680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-06 12:01:24.074  INFO 7680 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 12:01:24.089  INFO 7680 --- [Thread-27] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 12:01:24.089  INFO 7680 --- [Thread-27] o.a.c.c.C.[.[.[/MapBusanAnimalHospital]  : Destroying Spring FrameworkServlet 'dispatcherServlet'
